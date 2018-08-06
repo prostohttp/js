@@ -1,6 +1,6 @@
 let name = 'Mikele';
 let lastName = 'Corleone';
-console.log(`${name} ${lastName}`);
+// console.log(`${name} ${lastName}`);
 
 const arr = [
     {
@@ -8,3 +8,5 @@ const arr = [
         lastName: 'Corleone'
     }
 ];
+
+console.log(arr[0].name);
