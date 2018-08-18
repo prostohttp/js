@@ -1,15 +1,2 @@
-'use strict';
-
-// let name = 'Mikele';
-// let lastName = 'Corleone';
-// console.log(`${name} ${lastName}`);
-
-// const arr = [
-//     {
-//         name: 'Mikele',
-//         lastName: 'Corleone'
-//     }
-// ];
-
-var hello = 'Hello World';
-document.querySelector('h1').textContent = hello;
+"use strict";var hello="Hello World";document.querySelector("h1").textContent=hello;
+//# sourceMappingURL=./script-min.js.map
