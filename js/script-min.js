@@ -1,2 +1,2 @@
-"use strict";function Point(n,t){this.x=n,this.y=t,console.log(""+n%t)}var p=new Point(100,20),d=new Point(200,20);
+"use strict";function Point(t,n){this.x=t,this.y=n,this.toString=function(){return this.x+this.y}}var p=new Point(100,20),d=new Point(200,20);console.log(p.a),console.log(p);
 //# sourceMappingURL=./script-min.js.map
