@@ -5,3 +5,4 @@ function Point(x, y) {
 }
 
 let p = new Point(100, 20);
+let d = new Point(200, 20);
