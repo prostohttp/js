@@ -1,13 +1,7 @@
-// let name = 'Mikele';
-// let lastName = 'Corleone';
-// console.log(`${name} ${lastName}`);
+function Point(x, y) {
+	this.x = x;
+	this.y = y;
+	console.log(`${x % y}`);
+}
 
-// const arr = [
-//     {
-//         name: 'Mikele',
-//         lastName: 'Corleone'
-//     }
-// ];
-
-const hello = `Hello World`;
-document.querySelector('h1').textContent = hello;
+let p = new Point(100, 20);
